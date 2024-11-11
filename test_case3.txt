@@ -1,0 +1,20 @@
+# Initialize the file system and store it in myfs
+i myfs
+
+# Create three files with different sizes
+c file1 16 aaaaaaaaaaaaaaaa
+c file2 32 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+c file3 64 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+# Delete file1 and file2
+d file1
+d file2
+
+# Display the freelist
+s
+
+# Print the file system
+p
+
+# Close the file system
+x

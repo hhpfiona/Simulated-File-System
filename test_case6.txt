@@ -1,0 +1,27 @@
+# Initialize the file system and store it in myfs
+i myfs
+
+# Create four files of increasing sizes
+c file1 8 aaaaaaaa
+c file2 16 bbbbbbbbbbbbbbbb
+c file3 32 cccccccccccccccccccccccccccccccc
+c file4 64 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+
+# Delete file2 and file3
+d file2
+d file3
+
+# Create a file that fits into the first free block (for first-fit testing)
+c file5 12 eeeeeeeeeeee
+
+# Create a file that best fits into the smallest block (for best-fit testing)
+c file6 20 ffffffffffffffffffff
+
+# Display the freelist
+s
+
+# Print the file system
+p
+
+# Close the file system
+x

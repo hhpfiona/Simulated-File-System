@@ -1,0 +1,22 @@
+# Initialize the file system and store it in myfs
+i myfs
+
+# Create three files of varying sizes
+c file1 8 aaaaaaaa
+c file2 24 bbbbbbbbbbbbbbbbbbbbbbbb
+c file3 16 cccccccccccccccc
+
+# Delete file2
+d file2
+
+# Create another file that fits into the first free block (first-fit)
+c file4 10 dddddddddd
+
+# Display the freelist
+s
+
+# Print the file system
+p
+
+# Close the file system
+x

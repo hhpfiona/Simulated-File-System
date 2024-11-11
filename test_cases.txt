@@ -1,0 +1,23 @@
+Test 1: Create a file and delete it, then check the free list
+Transaction file: test_case1.txt
+Description: Tests basic file creation, deletion, and checks if the free list updates properly after deletion.
+
+Test 2: Create two files, delete one, and verify if the free list contains the correct block
+Transaction file: test_case2.txt
+Description: Checks if free list correctly manages space when one file is deleted and another remains in the system.
+
+Test 3: Fill the filesystem, delete all files, and check for fragmentation
+Transaction file: test_case3.txt
+Description: Verifies the state of the free list after multiple create and delete operations, ensuring no fragmentation.
+
+Test 4: Check first-fit algorithm by creating several files of various sizes
+Transaction file: test_case4.txt
+Description: Verifies that the first-fit algorithm selects the first available block in the free list that can accommodate the file.
+
+Test 5: Check best-fit algorithm by creating several files of various sizes
+Transaction file: test_case5.txt
+Description: Verifies that the best-fit algorithm selects the smallest block available in the free list that can accommodate the file.
+
+Test 6: Create files of increasing size, delete some, and verify both first-fit and best-fit results
+Transaction file: test_case6.txt
+Description: Tests both first-fit and best-fit algorithms with alternating file creation and deletion, ensuring correct block selection.

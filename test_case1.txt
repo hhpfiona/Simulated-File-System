@@ -1,0 +1,17 @@
+# Initialize the file system and store it in myfs
+i myfs
+
+# Create a file called file1 with size 8 bytes and contents "aaaaaaaa"
+c file1 8 aaaaaaaa
+
+# Delete file1
+d file1
+
+# Display the freelist
+s
+
+# Print the file system
+p
+
+# Close the file system
+x
