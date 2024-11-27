@@ -1,6 +1,6 @@
-# A2 Simulated File System [October 2024]
+# Simulated File System [October 2024]
 
-Welcome to the **A2 Simulated File System** project! This is a personal exploration into creating a simple simulated file system in C, where a regular file stands in for the hard drive, storing both file contents and metadata. This project simulates basic file system operations, experimenting with free block allocation and deallocation using well-known memory management algorithms.
+Welcome to the **Simulated File System** project! This is a personal exploration into creating a simple simulated file system in C, where a regular file stands in for the hard drive, storing both file contents and metadata. This project simulates basic file system operations, experimenting with free block allocation and deallocation using well-known memory management algorithms.
 
 ## Overview
 
